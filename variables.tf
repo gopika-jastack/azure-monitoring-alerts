@@ -1,6 +1,6 @@
 variable "location" {
   description = "Azure Region"
-  default     = "UK South"
+  default     = "East US"
 }
 
 variable "resource_group_name" {
