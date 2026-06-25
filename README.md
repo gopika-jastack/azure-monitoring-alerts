@@ -2,7 +2,14 @@
 
 ## Overview
 
-This project demonstrates monitoring and observability capabilities in Microsoft Azure using Terraform.
+The project creates a scheduled query alert that monitors Log Analytics logs and triggers an Action Group when error events are detected.
+
+### Alert Components
+
+- Log Analytics Workspace
+- Azure Monitor Alert Rule
+- Action Group
+- Email Notification
 
 ## Services Used
 
